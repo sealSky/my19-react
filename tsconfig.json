@@ -1,0 +1,35 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "ts",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "module": "esnext",
+    "target": "es5",
+    // 这可以对 `this` 上的数据属性进行更严格的推断
+    "strict": true,
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "noEmitOnError": true, // 报错时不生成输出文件
+    "noImplicitAny": false, // 在表达式和声明上有隐含的 any类型时报错。
+    "jsx": "preserve",
+    "noFallthroughCasesInSwitch": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7",
+      "es2015",
+      "es2015.promise"
+    ],
+    "sourceMap": true,
+    "pretty": true
+  }
+}
