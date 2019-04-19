@@ -6,8 +6,6 @@
     "node_modules"
   ],
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "ts",
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "allowJs": true,
