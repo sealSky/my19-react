@@ -8,12 +8,12 @@ import store from './store/store'
 import './utils/setRem';
 
 /*
-* 引入图标库
+* 引入样式
 * */
-import './assets/font/font_icon/iconfont.css'
 import './style/base.css'
 import './index.css';
 
+console.log(1);
 const render = Component => {
   ReactDOM.render(
     // 绑定redux、热加载

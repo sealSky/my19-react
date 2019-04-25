@@ -35,6 +35,7 @@ class PublicHeader extends React.Component<PublicHeaderPropsFace, PublicHeaderSt
 
   // 切换左侧导航栏状态
   toggleNav = () => {
+    console.log(2);
     this.setState({navState: !this.state.navState});
   }
 

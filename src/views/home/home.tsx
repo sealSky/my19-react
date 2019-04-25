@@ -32,10 +32,6 @@ interface HomePropsFace {
   proData: any;
 }
 
-const defaultProp = {
-
-}
-
 class Home extends React.Component<HomePropsFace, HomeStateFace> {
   static propTypes = {
     formData: PropTypes.object.isRequired,
